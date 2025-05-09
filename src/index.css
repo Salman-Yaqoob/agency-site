@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+@theme {
+  --color-dark-pbg: oklch(12.9% 0.042 264.695);
+  --color-light-pbg: oklch(98.4% 0.003 247.858);
+  --color-dark-sbg: oklch(37.2% 0.044 257.287);
+  --color-light-sbg: oklch(86.9% 0.022 252.894);
+  --color-light-ptx: oklch(13% 0.028 261.692);
+  --color-dark-ptx: oklch(98.5% 0.002 247.839);
+  --color-tx-medium: oklch(37.4% 0.01 67.558);
+}
