@@ -16,4 +16,18 @@
   --color-light-ptx: oklch(13% 0.028 261.692);
   --color-dark-ptx: oklch(98.5% 0.002 247.839);
   --color-tx-medium: oklch(37.4% 0.01 67.558);
+  --color-primary: oklch(48.8% 0.243 264.376);
+  --color-secondry-bg: #1f2a37;
+}
+
+@layer {
+  .primary-btn {
+    @apply bg-primary hover:bg-primary/80 text-light-pbg cursor-pointer rounded-lg px-6 py-4 text-nowrap sm:block;
+  }
+  .secondary-btn {
+    @apply bg-dark-pbg hover:bg-dark-pbg/85 text-light-pbg dark:bg-dark-sbg hover:dark:bg-dark-sbg/80 hidden cursor-pointer rounded-lg px-6 py-4 text-nowrap sm:block;
+  }
+  .sec-container {
+    @apply mx-auto px-4 sm:container sm:px-0;
+  }
 }
