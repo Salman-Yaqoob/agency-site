@@ -9,17 +9,17 @@ function ModernWeb() {
           <img
             src="../../public/TailwindCSS.png"
             alt="tailwind"
-            className="w-32 md:w-40"
+            className="w-28 sm:w-32 md:w-40"
           />
           <img
             src="../../public/MUIMaterialUI.png"
             alt="tailwind"
-            className="w-32 md:w-40"
+            className="w-28 sm:w-32 md:w-40"
           />
           <img
             src="../../public/Tailwind.png"
             alt="tailwind"
-            className="w-32 md:w-40"
+            className="w-28 sm:w-32 md:w-40"
           />
         </div>
       </div>

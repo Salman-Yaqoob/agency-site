@@ -14,7 +14,7 @@ function HomeSec() {
           <h3 className="text-lg font-semibold tracking-wide">
             Subscribe to get notified when we launch 🎉
           </h3>
-          <div className="flex flex-row gap-2 sm:flex-col lg:flex-row xl:flex-col">
+          <div className="flex flex-col gap-2 lg:flex-row xl:flex-col">
             <input
               type="text"
               name=""
