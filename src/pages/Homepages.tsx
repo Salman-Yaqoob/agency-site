@@ -3,6 +3,7 @@ import FeaturesSection from "../components/features/FeaturesSection";
 import Home from "../components/HeroSec";
 import ModernWeb from "../components/ModernWeb";
 import TeamSection from "../components/teamsec/TeamSection";
+import Testimonials from "../components/Testimonials";
 
 function Homepage() {
   return (
@@ -12,6 +13,7 @@ function Homepage() {
       <FeaturesSection />
       <FeatureHighlight />
       <TeamSection />
+      <Testimonials />
     </div>
   );
 }
