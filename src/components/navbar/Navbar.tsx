@@ -15,7 +15,7 @@ function Navbar() {
               <a href="#features">Features</a>
             </li>
             <li>
-              <a href="/pricing">Pricing</a>
+              <a href="#pricing">Pricing</a>
             </li>
             <li>
               <a href="/support">Support</a>

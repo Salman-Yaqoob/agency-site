@@ -27,7 +27,7 @@ function FeatureHighlight() {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="absolute -right-4 bottom-0 z-10 flex h-[23%] w-[60%] items-center justify-center rounded-tr-[70px] bg-gradient-to-r from-blue-600 to-sky-600 text-center shadow-2xl">
+          <div className="absolute -right-4 -bottom-2 z-10 flex h-[23%] w-[60%] items-center justify-center rounded-tr-[70px] bg-gradient-to-r from-blue-600 to-sky-600 text-center shadow-2xl">
             <p className="w-[90%] text-lg font-semibold sm:text-xl md:text-2xl lg:text-3xl">
               We make clean & professional design
             </p>
